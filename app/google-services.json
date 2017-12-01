@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809132326110",
+    "firebase_url": "https://aristoteles-c3b1d.firebaseio.com",
+    "project_id": "aristoteles-c3b1d",
+    "storage_bucket": "aristoteles-c3b1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809132326110:android:fdc80f42aa97dc10",
+        "android_client_info": {
+          "package_name": "com.example.android.aristoteles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809132326110-kc4nfuiqc1bp0lruon136b6l1bju56fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.aristoteles",
+            "certificate_hash": "177366ebe793d60fc4a72d1a6434682a3d1de3bb"
+          }
+        },
+        {
+          "client_id": "809132326110-b8drrb2cps83h8ftqnc2qt8eb8r9025f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcw4AmdQhkuHWVp52D8XkKaw4AAVivqd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809132326110-b8drrb2cps83h8ftqnc2qt8eb8r9025f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

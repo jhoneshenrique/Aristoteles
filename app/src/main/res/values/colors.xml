@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6a1b9a</color>
+    <color name="colorPrimaryDark">#38006b</color>
+    <color name="colorAccent">#09B256</color>
+    <color name="BtPerguntas">#FFAE19</color>
+    <color name="BtMenu">#19A6FF</color>
+    <color name="BtMenuAccent">#F44336</color>
+
+</resources>

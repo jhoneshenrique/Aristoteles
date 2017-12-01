@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundProfile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.aristoteles.Profile">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="casual"
+        android:text="@string/BtProfile"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="36sp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageProf"
+        android:layout_width="106dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="41dp"
+        android:contentDescription="@string/descricaoProfile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/trophyblack" />
+
+    <RelativeLayout
+        android:layout_width="267dp"
+        android:layout_height="221dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProf"
+        app:layout_constraintVertical_bias="0.464">
+
+        <TextView
+            android:id="@+id/lbNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="casual"
+            android:text="@string/lbName"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <TextView
+            android:id="@+id/pontos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/status"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/status"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="TextView"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="0.762"
+            app:layout_constraintLeft_toRightOf="@+id/lbPontos"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="407dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nome"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/nome"
+            android:layout_below="@+id/nome"
+            android:layout_marginTop="59dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="TextView"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.038"
+            app:layout_constraintLeft_toRightOf="@+id/Status"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pontos"
+            app:layout_constraintVertical_bias="0.216" />
+
+        <TextView
+            android:id="@+id/Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/status"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="@string/labStatus"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lbNome"
+            android:layout_alignBottom="@+id/lbNome"
+            android:layout_marginLeft="59dp"
+            android:layout_marginStart="59dp"
+            android:layout_toEndOf="@+id/lbPontos"
+            android:layout_toRightOf="@+id/lbPontos"
+            android:fontFamily="casual"
+            android:text="TextView"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="378dp" />
+
+        <TextView
+            android:id="@+id/lbPontos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pontos"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="casual"
+            android:text="@string/lbPontos"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

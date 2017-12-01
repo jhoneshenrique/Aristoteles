@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Aristoteles</string>
+    <string name="LoginTittle">Arist</string>
+    <string name="SigninButton">Sign in</string>
+    <string name="createaccountbutton">Criar Conta</string>
+    <string name="auth_failed">Falha na Autenticação</string>
+    <string name="loading">loading</string>
+
+    <string name="not_log_in">Not Logged in</string>
+    <string name="not_firebase_auth">No authentication</string>
+    <string name="not_close_session">Not Closed Session</string>
+    <string name="not_revoke">Not Revoked</string>
+    <string name="log_out">Log out</string>
+    <string name="revoke">Revoke</string>
+    <string name="LabelFaçaseulogin">Faça seu Log in usando sua conta do Google</string>
+    <string name="IniciarGame">Aula</string>
+    <string name="QuizButton">Quiz</string>
+    <string name="title_activity_aula">Aula</string>
+    <string name="BtVoltar">Voltar</string>
+    <string name="btProximo">Próximo</string>
+    <string name="BtProfile">Profile</string>
+    <string name="BtFechar">Fechar</string>
+    <string name="labScore">Pontos:</string>
+    <string name="labStatus">Status</string>
+    <string name="Prof">Profile</string>
+    <string name="lbName">Nome</string>
+    <string name="lbNome">Nome</string>
+    <string name="lbEmail">Email</string>
+    <string name="lbPontos">Pontos</string>
+    <string name="resultado">Quiz Termiando</string>
+    <string name="refazer">Refazer</string>
+    <string name="sairResultado">Ok</string>
+    <string name="descricaoSplash">A palavra aristóteles escrita em branco sob um fundo roxo</string>
+    <string name="descricaoImagemMenu">Imagem do usuário</string>
+    <string name="descricaoPerguntas">Icone de uma interrogação</string>
+    <string name="descricaoProfile">Icone de um trofeu</string>
+    <string name="descricaoQuizImagem">Icone de uma interrogação</string>
+    <string name="PontosQuiz">Pontos:</string>
+    <string name="proposicao">O que é uma proposição?</string>
+    <string name="Verdade">Verdadeiro</string>
+    <string name="Falso">Falso</string>
+    <string name="labelQuestao">Questão:</string>
+    <string name="TotalPontos">/10</string>
+</resources>
