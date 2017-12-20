@@ -15,19 +15,19 @@ public class PerguntasData {
 
     public String alternativas [][] = {
             {"Que horas são?","Eletróns possuem carga elétrica negativa","Abra a porta!","Você deveria estudar"},
-            {"Não pode ser verdadeiro e falso ao mesmo tempo","Pode ser verdadeiro e falso ao mesmo tempo","Só pode ser verdadeiro","Não pode ser nem verdadeiro nem falso"},
+            {"Não pode ser verdadeiro e falso ao mesmo tempo","Pode ser verdadeiro e falso ao mesmo tempo","Só pode ser verdadeiro","Não pode ser nem verdadeiro e nem falso"},
             {"João é bom aluno","Hoje tem prova!","5>2 e 5<10","Maria gosta de João"},
-            {"Ancar é a capital da Turquia e Toronto é a capital do Canada","7x8=56 e Palmeiras é campeão mundial","O sol é um planeta e a terra uma estrela ","59 é primo e a raíz de 25 é 5"},
+            {"Ancar é a capital da Turquia e Toronto é a capital do Canada","7x8=56 e Colombo descobriu o Brasil","O sol é um planeta e a terra uma estrela ","59 é primo e a raíz de 25 é 5"},
             {"1+1=2 ou Brasil fica na Europa","10 é a raíz quadrada de 100 ou cantar é advérbio","N.Y é a capital dos EUA ou Helsínquia é a capital da Noruega","269 é primo ou 128 é primo"}
 
     };
 
     public String dicas [][] = {
-            {"Uma pergunta nunca é uma Proposição","Parabéns, você acertou!","Uma ordem nunca é Proposição","Um conselho nunca é uma Proposição"},
-            {"Parabéns, você acertou","Lembre-se que como o nome indica, não pode haver contradição","Lembre-se que uma Proposição também pode assumir o valor Falso","Uma Proposição tem que possuir um valor Falso ou Verdadeiro"},
-            {"Temos apenas um termo aqui!","Uma Proposição composta possui um conector","5>2 e 5<10","Temos apenas um termo aqui"},
-            {"A capital do Canada é Otawa e não Tornoto","Lembre-se que com o conector E, as duas sentenças devem ser verdade","As duas Proposições são falsas","59 é primo e a raíz de 25 é 5"},
-            {"Lembre-se que com o conector OU, basta que uma sentença seja verdadeira para termos verdadeiro","10 é a raíz quadrada de 100, logo a Proposição é verdadeira","N.Y é a capital dos EUA ou Helsínquia é a capital da Noruega","269 é primo, logo a Proposição é verdadeira"}
+            {"Uma pergunta nunca é uma Proposição","Parabéns, você acertou! Eletróns realmente possuem carga elétrica negativa","Uma ordem nunca é uma Proposição","Um conselho nunca é uma Proposição"},
+            {"Parabéns, você acertou. Uma proposição só pode assumir um estado (Verdadeiro ou Falso)","Lembre-se que como o nome indica, não pode haver contradição","Lembre-se que uma Proposição também pode assumir o valor Falso","Uma Proposição tem que possuir um valor Falso ou Verdadeiro"},
+            {"Temos apenas um termo aqui!","Uma Proposição composta possui um conectivo","Você acertou! 5>2 (É verdade) e 5<10 (É verdade)","Temos apenas um termo aqui"},
+            {"A capital do Canada é Otawa e não Tornoto","Lembre-se que com o conector E, as duas sentenças devem ser verdade","As duas Proposições são falsas","59 é primo e a raíz de 25 é 5, logo são verdades"},
+            {"Lembre-se que com o conector OU, basta que uma sentença seja verdadeira para termos verdadeiro","10 é a raíz quadrada de 100, logo a Proposição é verdadeira","Exato! As duas afirmações são falsas, logo a proposição é falsa","269 é primo, logo a Proposição é verdadeira"}
     };
 
     public String respostas [] = {
@@ -35,7 +35,7 @@ public class PerguntasData {
     };
 
     public String dicaCorreta [] = {
-            "Correto! Essa frase é verdadeira, logo é uma proposição!","Não pode ser verdadeiro e falso ao mesmo tempo","5>2 e 5<10","59 é primo e a raíz de 25 é 5","N.Y é a capital dos EUA ou Helsínquia é a capital da Noruega"
+            "Parabéns, você acertou! Eletróns realmente possuem carga elétrica negativa","Parabéns, você acertou. Uma proposição só pode assumir um estado (Verdadeiro ou Falso)","Você acertou! 5>2 (É verdade) e 5<10 (É verdade)","59 é primo e a raíz de 25 é 5, logo são verdades","Exato! As duas afirmações são falsas, logo a proposição é falsa"
     };
 
     public String getQuestion(int a){
